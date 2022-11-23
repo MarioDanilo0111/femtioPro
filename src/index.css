@@ -1,78 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100;300;400;500;600;700;800&display=swap");
 
-/* :root {
-  --primary-dark: #5651e5;
-  --primary-light: #709dff;
-} */
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
+/* html {
+  height: -webkit-fill-available;
+} */
 body {
   font-family: "Outfit", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  background: #000;
-  margin: 0;
 }
 
 ul {
   list-style-type: none;
 }
-
 a {
-  color: #fff;
   text-decoration: none;
 }
 
-p {
+h1,
+h4,
+p,
+a {
   color: #fff;
 }
 
 h1 {
   font-size: 3rem;
-  color: #fff;
 }
-
-h4 {
-  color: #fff;
-}
-
-/* h2 {
-  font-size: 2rem;
-} */
-
-/* .container {
-  max-width: 1240px;
-  margin: auto;
-  padding: 0 1rem;
-} */
-
-.btn {
-  padding: 12px 32px;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  background: transparent;
-  color: fff;
-  border: 1pxsolid #fff;
-  cursor: pointer;
-}
-
-.btn-light {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-/* @media screen and (max-width: 940px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
-} */
