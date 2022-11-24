@@ -1,0 +1,600 @@
+.container-idea {
+  position: relative;
+  background-color: #ebe9ec;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.header-idea {
+  margin: 9rem 0rem 1rem;
+  height: 90%;
+  width: 90%;
+}
+
+.top-cont {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  height: 60%;
+  padding: 0;
+  margin: 1rem 3rem 0 3rem;
+}
+
+.carousel img {
+  max-width: fit-content;
+  max-height: 90% !important;
+  border-radius: 19px;
+}
+
+.first-text {
+  display: flex;
+  justify-content: flex-end;
+}
+.first-text h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: end;
+  color: #000;
+}
+.second-text {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem 2em 6em;
+}
+
+.second-text h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0 0.6em 0.6em;
+  padding: 0 0.3em;
+  width: 60%;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #d76a03;
+}
+
+.check-items-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 3px 3px 3px;
+  padding: 0;
+}
+.check-item {
+  font-size: 3rem;
+  color: #d76a03;
+  margin-right: 1.6rem;
+}
+.item p {
+  font-size: 1.3rem;
+  color: #000;
+  margin: 0.9px 0;
+}
+
+.third-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem 3rem;
+}
+.third-part h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+.third-part p {
+  font-size: 1.3rem;
+  font-weight: 300;
+
+  margin: 0;
+  padding: 1rem 3rem 1rem 1rem;
+
+  color: #000;
+}
+
+.int-two {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0;
+  padding: 3rem 0rem 0;
+}
+
+.int-two h5 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.int-two .citat {
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: #000;
+  padding: 1rem 1rem 0;
+}
+
+.link-storIdea {
+  text-decoration: none;
+  margin: 0;
+  padding: 1rem;
+  padding-left: 3rem;
+}
+
+.link-storIdea h4 {
+  color: blueviolet;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.int-tree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.int-tree p {
+  font-size: 1.3rem;
+  font-weight: 300;
+
+  margin: 0;
+  padding: 1rem 3rem 1rem 1rem;
+
+  color: #000;
+}
+@media only screen and (max-width: 600px) {
+  .container-idea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .header-idea {
+    margin: 9rem 0 3rem;
+    padding: 0;
+  }
+  .top-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0.3rem 0rem 0 0.3rem;
+  }
+  .first-text {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0 1.6rem 0 0;
+  }
+  .first-text h1 {
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+  }
+  .second-text {
+    margin: 0;
+    padding: 0;
+  }
+  .second-text h2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 100;
+    height: 3rem;
+  }
+
+  .check-item {
+    font-size: 1.9rem;
+  }
+  .item p {
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+  .third-part h2 {
+    margin: 0;
+    padding: 1rem 0 0 0.3rem;
+    font-weight: 300;
+  }
+  .third-part p {
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: #000;
+    margin: 0;
+    padding: 1rem 0rem;
+  }
+  .int-two {
+    margin: 0;
+    padding: 0;
+  }
+  .int-two h5 {
+    margin: 0;
+    padding: 0 0 0 1rem;
+    font-weight: 200;
+  }
+  .int-two .citat {
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 0;
+    padding: 1rem 0;
+  }
+  .link-storIdea h4 {
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .container-idea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0.3rem 0rem 0 0.3rem;
+  }
+
+  .first-text {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .first-text h1 {
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 8em;
+    padding: 0rem 1rem 0 4rem;
+  }
+  .second-text {
+    display: flex;
+    font-display: column;
+    margin: 0 1rem;
+    padding: 0;
+  }
+  .second-text h2 {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 100;
+
+    height: 3rem;
+
+    color: #fff;
+  }
+  .check-items-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .check-item {
+    margin: 0;
+    padding: 0.1rem;
+  }
+
+  .item {
+    margin: 0;
+    padding: 0;
+  }
+  .item p {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  .third-part {
+    margin: 0;
+    padding: 0;
+  }
+  .third-part h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0 0 1.3rem;
+    font-weight: 300;
+  }
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .int-one {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .third-part p {
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: #000;
+    margin: 0;
+    padding: 1rem 1rem;
+  }
+  .int-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .int-two h5 {
+    margin: 0;
+    padding: 0 0 0 1rem;
+    font-weight: 200;
+  }
+
+  .int-two .citat p {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+
+  .link-storIdea {
+    margin: 0;
+    padding: 0.6rem 0 0 1.6rem;
+  }
+  .link-storIdea h4 {
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+  .int-tree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .int-tree p {
+    margin: 0;
+    padding: 0.6rem 1rem 1.6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-idea {
+    margin: 16rem 3rem 1rem;
+  }
+
+  .first-text h1 {
+    padding: 0 1rem 0 2rem;
+    margin-left: 9em;
+    font-size: 2.3rem;
+    font-weight: 100;
+  }
+  .second-text {
+    margin: 0;
+  }
+  .second-text h2 {
+    font-size: 1.6rem;
+    width: 50%;
+  }
+  .check-item {
+    font-size: 2.3rem;
+  }
+  .item p {
+    font-size: 1.3rem;
+    padding: 0 0 0.3rem;
+    font-weight: 300;
+  }
+  .third-part h2 {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  .third-part p {
+    font-size: 1.3rem;
+    font-weight: 200;
+  }
+  .int-two h5 {
+    font-size: 1.3rem;
+    /* font-weight: 300; */
+  }
+  .int-two .citat {
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+  .link-storIdea h4 {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-idea {
+    margin: 16rem 3rem 1rem;
+  }
+  .first-text h1 {
+    padding: 0 3rem 0 4rem;
+    margin-left: 10em;
+    font-size: 2.6rem;
+    font-weight: 100;
+
+    /*  padding: 0 6rem 0 5rem;
+    margin-left: 15em;
+    font-size: 3.1rem;
+    font-weight: 100; */
+  }
+
+  .second-text {
+    margin: 0;
+    /* width: 70%; */
+  }
+  .second-text h2 {
+    font-size: 1.9rem;
+    width: 50%;
+  }
+
+  .check-item {
+    font-size: 2.9rem;
+  }
+
+  .item p {
+    font-size: 1.6rem;
+    padding: 0 0 0.3rem;
+    font-weight: 300;
+  }
+
+  .third-part h2 {
+    font-size: 2.3rem;
+    font-weight: 300;
+  }
+  .third-part p {
+    font-size: 1.6rem;
+    font-weight: 200;
+  }
+
+  .int-two h5 {
+    font-size: 1.7rem;
+    font-weight: 300;
+  }
+
+  .int-two .citat {
+    font-size: 1.4rem;
+    font-weight: 100;
+  }
+
+  .link-storIdea h4 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-idea {
+    margin: 15rem 3rem 1rem;
+  }
+
+  .first-text h1 {
+    padding: 0 6rem 0 5rem;
+    margin-left: 10em;
+    font-size: 3.1rem;
+    font-weight: 100;
+  }
+
+  .second-text h2 {
+    width: 40%;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .check-item {
+    font-size: 3rem;
+  }
+
+  .item p {
+    font-size: 1.6rem;
+    margin: 0 0 0.3rem;
+  }
+
+  .third-part h2 {
+    font-size: 2.6rem;
+    font-weight: 200;
+  }
+  .third-part p {
+    font-size: 1.9rem;
+    font-weight: 200;
+  }
+
+  .int-two h5 {
+    font-size: 1.9rem;
+  }
+
+  .int-two .citat {
+    font-size: 1.6rem;
+    font-weight: 100;
+  }
+
+  .link-storIdea h4 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .first-text h1 {
+    padding: 0 0rem 0 20rem;
+    margin-left: 9em;
+    font-size: 3.3rem;
+    font-weight: 100;
+  }
+
+  .second-text h2 {
+    width: 50%;
+    font-size: 2.6rem;
+    color: #fff;
+    padding: 2rem;
+  }
+
+  .check-item {
+    font-size: 3.3rem;
+  }
+
+  .item p {
+    padding: 0 0 0.1rem;
+    font-size: 1.7rem;
+    font-weight: 200;
+  }
+
+  .third-part h2 {
+    font-size: 2.6rem;
+    font-weight: 200;
+  }
+  .third-part p {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+
+  .int-two h5 {
+    font-size: 2rem;
+  }
+
+  .int-two .citat {
+    font-size: 1.9rem;
+  }
+
+  .link-storIdea h4 {
+    font-size: 1.9rem;
+  }
+}
