@@ -1,69 +1,64 @@
-# App Name
+# femtio-procent
 
-## Introduction
+## Description
 
-Briefly introduce your app, its purpose, and the problem it solves. Mention the benefit of reducing food waste and how users and food chains can benefit from using your app.
+The femtio-procent app is a web application built with React, utilizing various dependencies for front-end design and functionality.
 
-Example:
+## Installation
 
-> "App Name" is a web application designed to help users discover deals on products nearing their expiration date, thus reducing food waste. By connecting consumers with local food chains, we provide an eco-friendly shopping alternative that benefits both the environment and your wallet.
-
-## Features
-
-- List the key features of your app.
-- Highlight any unique functionalities that set your app apart.
-
-## Getting Started
-
-### Prerequisites
-
-- List any prerequisites needed to run your app (e.g., Node.js, npm/yarn).
-
-### Installation
-
-Provide a step-by-step guide on setting up the project locally.
+To set up the application locally, follow these steps:
 
 1. Clone the repository:
    git clone https://github.com/yourusername/your-repo-name.git
 
-2. Navigate to the project directory:
-
-3. Install dependencies:
-
-### Running the Application
-
-Explain how to start the app and access it in a web browser.
-
-### npm start
+2. Install the dependencies: npm install
 
 ## Usage
 
-Offer examples or scenarios on how to use your app effectively. Include screenshots or videos if possible.
+To run the app, use the following command: npm start
 
-## Contributing
+Access the app in a web browser at the specified port.
 
-Encourage contributions and provide guidelines for how others can contribute to the project.
+## Dependencies
 
-- Explain the process for submitting pull requests.
-- Link to your `CONTRIBUTING.md` file if you have one.
+The app utilizes the following dependencies:
 
-## Deployment
+- @testing-library/jest-dom: ^5.16.5
+- @testing-library/react: ^13.4.0
+- @testing-library/user-event: ^13.5.0
+- bootstrap: ^5.2.3
+- react: ^18.2.0
+- react-bootstrap: ^2.6.0
+- react-dom: ^18.2.0
+- react-icons: ^4.4.0
+- react-router-dom: ^6.4.1
+- react-scripts: 5.0.1
+- web-vitals: ^2.1.4
 
-Include any additional notes about deploying the app in a live environment.
+## Scripts
 
-## Built With
+The available scripts for the app are:
 
-- React.js - The web framework used
-- Any other libraries or frameworks used
+- `start`: to start the app
+- `build`: to build the app
+- `test`: to run tests
+- `eject`: to eject the app
 
-## Authors
+## ESLint Configuration
 
-- Your Name - Initial work - [YourUsername](https://github.com/YourUsername)
+The app's ESLint configuration extends:
+
+- "react-app"
+- "react-app/jest"
+
+## Browserslist
+
+The app's Browserslist configuration for production and development environments.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is private and the license details are not provided.
 
-## Acknowledgments
+## Contact
 
-- Mention any inspirations, code snippets, etc.
+For any inquiries, please contact author's here nilovinilo1@gmail.
